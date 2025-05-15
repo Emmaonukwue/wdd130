@@ -41,7 +41,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: 0;
+    height: auto;
 }
 
 footer {
