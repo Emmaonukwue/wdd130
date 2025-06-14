@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Us page of White Water Rafting website" />
+  <meta name="author" content="Emmanuel Onukwue" />
+  <link rel="stylesheet" href="styles/rafting.css" />
+  <title>Contact Us - Splash WWR</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/z-splash.png" alt="Splash Rafting Company Logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h1>Contact Us</h1>
+      <p><strong>Address:</strong> 6 Opebi Road, Ikeja Lagos, Nigeria</p>
+      <p><strong>Phone:</strong> +234 (702) 504 0241</p>
+      <p><strong>Email:</strong> <a href="mailto:onukwueemma@gmail.com">contact@splashwwr.com</a></p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11210.228070136358!2d3.344379671712979!3d6.595339968067542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9323ad2aa55b%3A0x8aa28ee6ceea5929!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sng!4v1749127822475!5m2!1sen!2sng"
+          width="600" height="450" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="team">
+      <h2>Meet Our Team</h2>
+      <div class="adventure gallery">
+        <figure>
+          <img src="images/staff1.webp" alt="Team Leader" />
+          <figcaption><span style="color: var(--secondary-color);font-weight: 600;">Amanda</span> - Tour Guide Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/staff2.webp" alt="Customer Service Rep" />
+          <figcaption><span style="color: var(--secondary-color);font-weight: 600;">Mike</span> - Customer Experience Lead</figcaption>
+        </figure>
+        <figure>
+          <img src="images/staff3.webp" alt="Booking Specialist" />
+          <figcaption><span style="color: var(--secondary-color);font-weight: 600;">Sophia</span> - Booking Specialist</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <p>Purpose of the message:</p>
+        <input type="radio" id="general" name="purpose" value="General Inquiry" required />
+        <label for="general">General Inquiry</label><br />
+        <input type="radio" id="reservation" name="purpose" value="Reservation Question" />
+        <label for="reservation">Reservation Question</label><br />
+        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" />
+        <label for="suggestion">Website Suggestion</label><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="6" required></textarea><br /><br />
+
+        <input type="checkbox" id="subscribe" name="subscribe" />
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label><br /><br />
+
+        <button type="submit" style="background-color: var(--primary-color); color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+          Send Message
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;2025 💕 Splash White Water Rafting 💕 Emmanuel Onukwue</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook.webp" alt="Facebook" /></a>
+      <a href="https://twitter.com"><img src="images/twitter.webp" alt="Twitter" /></a>
+      <a href="https://instagram.com"><img src="images/instagram.webp" alt="Instagram" /></a>
+    </nav>
+  </footer>
+</body>
+</html>

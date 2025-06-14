@@ -39,6 +39,18 @@ article {
     padding: 8px;
 }
 
+.adventure.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.adventure.gallery figure {
+    flex: 1;
+    text-align: center;
+}
+
 section img {
     max-width: 80%;
 }
@@ -53,7 +65,7 @@ section img {
     height: auto;
 }
 
-h1 {
+main div h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -156,6 +168,36 @@ header {
     font-size: 0.9rem;
     margin-top: 0.5rem;
     color: var(--primary-color);
+}
+
+/* Contact Form Full Width */
+.contact-form {
+    max-width: 80%;
+}
+
+.contact-form form {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form label,
+.contact-form p {
+    display: block;
+    margin-top: 1em;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    width: auto;
 }
 
 /* Footer */
